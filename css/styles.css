@@ -115,8 +115,7 @@ img {
 }
 .social-list {
   display: flex;
-  justify-content: center;
-  column-gap: 56px;
+  justify-content: space-around;
 }
 .social-link {
   display: flex;
@@ -690,6 +689,7 @@ img {
   flex-wrap: wrap;
   row-gap: 72px;
   column-gap: 15px;
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
